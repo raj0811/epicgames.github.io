@@ -1,0 +1,500 @@
+body {
+    background-color: aqua;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.title-cat {
+    color: wheat;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.container {}
+
+.epic-logo {
+    height: 4vw;
+    width: 5%;
+}
+
+.epic-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-right {
+    position: relative;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.fa-user {
+    margin-right: 0;
+}
+
+.active {
+    border-bottom: 2px solid blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -25%;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: wheat;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+
+.language:hover .dropdown-content {
+    display: block;
+}
+
+.account-dropdown:hover .account-content {
+    display: block;
+}
+
+.select-lang {}
+
+.account-content {
+    display: none;
+    position: absolute;
+    left: 5%;
+    margin-top: 5%;
+    background-color: gray;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.account-content a {
+    color: wheat;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.account-content a:hover {
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+
+
+/* nav end */
+
+.main {
+    margin-top: 1%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* nav 2 */
+
+.nav-2 {
+    color: aliceblue;
+    margin-top: 1%
+}
+
+.game-search {
+    margin-left: 2%;
+}
+
+.search-bar {
+    background-color: black;
+    border: 2px solid black;
+    color: aliceblue;
+}
+
+
+/* nav 2 end */
+
+.carousel-item {
+    height: 35vw;
+    background-color: blue;
+}
+
+.carousel-inne {}
+
+.game-con {
+    width: 80%;
+    background-color: black;
+}
+
+.carousel-caption h5 {
+    color: darkred;
+    font-weight: 700;
+    ;
+}
+
+
+/* featere games */
+
+.featere-games {
+    width: 20%;
+    height: 100%;
+    color: aliceblue;
+    margin-left: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-card {
+    /* background-color: blue; */
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+
+.game-card-img {
+    height: 100%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+.game-card-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.game-card-data {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.game-card-data p {
+    margin: 0;
+    padding: 0;
+}
+
+.game-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img-top {
+    height: 18vw;
+}
+
+.game-collection {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.collection-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.collection-game-card {
+    background-color: black;
+    color: wheat;
+    height: 6vw;
+    display: flex;
+    padding: 1%;
+    width: 90%;
+    border-radius: 10px;
+    /* border: 1px solid darkgray; */
+    margin-top: 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collection-game-card:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.collection-game-img {
+    height: 100%;
+    width: 20%;
+}
+
+.collection-game-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.collection-game-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.collection-game-data p {
+    padding: 0;
+    margin: 0;
+}
+
+.resources p a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.qnas p {
+    margin: 0;
+    padding: 0;
+}
+
+.help-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.welcom-container {
+    background-color: rgb(72, 73, 73);
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+.common-topic {}
+
+.topics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+.d1 {
+    margin-right: 2%;
+    width: min-content;
+}
+
+.topic-content {
+    display: flex;
+    padding: 3%;
+    margin-top: 2%;
+    border-top: 1px solid gray;
+    width: 30%;
+}
+
+.help-card-1 {
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.help-img {
+    height: 100%;
+    width: 45%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.help-img img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+}
+
+.help-img img:hover {
+    transform: scale(1.3);
+    overflow: hidden;
+}
+
+.help-card-small {
+    margin-top: 2%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.small-help-card {
+    height: 18vw;
+    width: 24%;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.small-help-card img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+    filter: contrast(220%);
+}
+
+.small-help-card img:hover {
+    transform: scale(1.3);
+}
+
+.small-help-card a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 60%;
+    left: 30%;
+    text-shadow: 0 0 3px black, 0 0 3px black;
+}
+
+.text-border-black {
+    text-shadow: 0 0 3px black, 0 0 3px black;
+}
+
+.con {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-div {
+    height: 50vh;
+    width: 200vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 200vh 50vh;
+    background-image: url("https://bit.ly/3xNO23L");
+}
+
+.con-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: wheat;
+}
+
+.con-data h1 {
+    color: wheat;
+    text-align: center;
+}
+
+.con-data form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+.cbtn {
+    background-color: grey;
+    color: aliceblue;
+    width: 40vh;
+    height: 7vh;
+    margin-top: 3vh;
+}
+
+.con-data form input {
+    width: 80vh;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 3vh;
+    height: 5vh;
+}
+
+.con-data form textarea {
+    width: 80vh;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 3vh;
+}
+
+.c-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-social div {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-social div i {
+    font-size: 2rem;
+    margin: 2vh;
+}
+
+.c-social div a {
+    text-decoration: none;
+}
+
+.c-social div a:nth-child(2) {
+    color: #ff5050;
+}
+
+.c-social div a:nth-child(3) {
+    color: #9933ff
+}
+
+.c-social div a:nth-child(4) {
+    color: #0099ff
+}
+
+.c-social div a:nth-child(5) {
+    color: #00ff99
+}
+
+.c-social div a:nth-child(6) {
+    color: #e60000
+}
+
+.c-social div a:nth-child(7) {
+    color: #00cc00
+}
